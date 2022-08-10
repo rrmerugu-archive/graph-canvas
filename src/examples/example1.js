@@ -22,7 +22,7 @@ export default class ExampleUsage1 extends React.Component {
     return (
       <div className="App">
         <h1>Hello @antv/g6</h1>
-        <button onClick={() => this.canvas.menu.updateLayout("circular")}>
+        {/* <button onClick={() => this.canvas.menu.updateLayout("circular")}>
           circular
         </button>
         <button onClick={() => this.canvas.menu.updateLayout("force")}>
@@ -47,7 +47,8 @@ export default class ExampleUsage1 extends React.Component {
           save
         </button>
         |<button onClick={() => this.canvas.graph.clear("graph")}>clear</button>
-        <hr />
+        <hr /> */}
+        <div id="toolbar"></div> 
         <div id="container"></div>
       </div>
     );

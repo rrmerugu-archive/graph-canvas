@@ -40,8 +40,8 @@ export default class GraphCanvas {
     });
 
     const toolbar = new G6.ToolBar({
-      //  container: tc,
-      getContent: () => {
+        container: document.getElementById("toolbar"),
+        getContent: () => {
         return `
           <ul>
             <!-- <li code='add'>Add Node</li> -->
